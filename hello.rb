@@ -16,5 +16,6 @@ get '/hello/:name' do
 <head>
  <h1>"Hello World!,#{params['name']}!"</h1>
 </head>
-EOS
 </html>
+EOS
+end
